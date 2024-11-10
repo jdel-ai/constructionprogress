@@ -1,0 +1,84 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Command Bar */
+.command-bar {
+    background-color: #FFD700; /* สีเหลือง */
+    padding: 20px;
+    text-align: center;
+}
+
+.command-bar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.command-bar li {
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+}
+
+/* Main Section */
+.main-section {
+    background-color: #FFF; /* สีขาว */
+    padding: 60px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.video-placeholder {
+    background-color: #333;
+    color: #FFF;
+    width: 80%;
+    max-width: 600px;
+    padding: 60px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.video-placeholder h1 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.video-placeholder p {
+    font-size: 1rem;
+    color: #ccc;
+}
+
+/* Bottom Section */
+.bottom-section {
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFF;
+    padding: 40px 0;
+    gap: 10px;
+}
+
+.bottom-section .card {
+    background-color: #FFD700; /* สีเหลือง */
+    color: #333;
+    width: 25%; /* ลดขนาดการ์ด */
+    max-width: 200px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* Hover Effect for Cards */
+.bottom-section .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
